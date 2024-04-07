@@ -1,14 +1,14 @@
-# caddy-cloudflare-crowdsec
+# caddy-porkbun-crowdsec
 
 [Caddy Docker image](https://hub.docker.com/_/caddy) with the following modules included:
 * https://github.com/mholt/caddy-l4
 * https://github.com/caddyserver/transform-encoder
 * https://github.com/hslatman/caddy-crowdsec-bouncer
-* https://github.com/caddy-dns/cloudflare
+* https://github.com/caddy-dns/porkbun
 
 ## Why?
-I've been using Docker for years, but have never built an image. Also couldn't find a Caddy image with the aforementioned modules included.
-
+Forked from [https://github.com/encg/caddy-cloudflare-crowdsec](https://github.com/encg/caddy-cloudflare-crowdsec) for personal use.
+The contents below is from the original repo. I will edit to my version along the way.
 ## Usage
 #### docker-compose.yml
 ```
