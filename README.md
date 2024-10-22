@@ -7,8 +7,9 @@
 * https://github.com/caddy-dns/porkbun
 
 ## Why?
-Forked from [https://github.com/encg/caddy-cloudflare-crowdsec](https://github.com/encg/caddy-cloudflare-crowdsec) for personal use.
+Forked from [https://github.com/encg/caddy-cloudflare-crowdsec](https://github.com/encg/caddy-cloudflare-crowdsec) for personal use since a lot of my domains was on Porkbun.
 The contents below is from the original repo. I will edit to my version along the way.
+
 ## Usage
 #### docker-compose.yml
 ```
