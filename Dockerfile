@@ -7,6 +7,6 @@ RUN xcaddy build \
     --with github.com/hslatman/caddy-crowdsec-bouncer/http@main \
     --with github.com/hslatman/caddy-crowdsec-bouncer/layer4@main
 
-FROM caddy:2.7.6
+FROM caddy:v2.8.4
 
 COPY --from=builder /usr/bin/caddy /usr/bin/caddy
