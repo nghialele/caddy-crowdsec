@@ -42,7 +42,11 @@ CS_LOCAL_API_KEY=crowdsec_local_api_key
 #### Caddyfile
 ```
 {
-	acme_dns cloudflare {$CF_API_TOKEN}
+	acme_dns porkbun {
+			api_key {env.PORKBUN_API_KEY}
+			api_secret_key {env.PORKBUN_API_SECRET_KEY}
+	}
+
 	crowdsec {
 		api_url http://crowdsec:8080
 		api_key {$CS_LOCAL_API_KEY}
