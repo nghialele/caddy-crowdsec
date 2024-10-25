@@ -35,7 +35,8 @@ volumes:
 
 #### .env
 ```
-CF_API_TOKEN=cloudflare_api_token
+PORKBUN_API_KEY=changeme
+PORKBUN_API_SECRET_KEY=changeme
 CS_LOCAL_API_KEY=crowdsec_local_api_key
 ```
 
